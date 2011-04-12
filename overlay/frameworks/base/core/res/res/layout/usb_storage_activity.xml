@@ -38,7 +38,7 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginBottom="6dip"
+        android:layout_marginBottom="1dip"
         >
 
         <Button android:id="@+id/mount_button" 
