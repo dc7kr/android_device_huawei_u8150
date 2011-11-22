@@ -30,6 +30,9 @@ on boot
     chmod 0777 /sys/kernel/logger/log_radio/enable
     chmod 0777 /sys/kernel/logger/log_radio/priority
 
+	# Enable USB mounting of SD card...
+	write /sys/module/g_android/parameters/product_id 0x1038
+
     # SD card polling
     chown system system /sys/module/g_android/parameters/product_id
     chown system system /sys/devices/platform/msm_sdcc.1/polling
